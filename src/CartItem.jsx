@@ -111,10 +111,6 @@ const CartItem = ({ onContinueShopping }) => {
           ))
         )}
       </div>
-      <div
-        style={{ marginTop: "20px", color: "black" }}
-        className="total_cart_amount"
-      ></div>
       {cart.length > 0 && (
         <div className="continue_shopping_btn">
           <button
